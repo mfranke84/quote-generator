@@ -30,7 +30,6 @@ body {
 
 .quote-text{
     font-size: 2rem;
-    
 }
 
 .long-quote{
@@ -38,7 +37,9 @@ body {
 }
 
 .fa-quote-left{
-    font-size: 4rem;
+    font-size: 3rem;
+    font-style: italic;
+    color: #163f3ad7;
 }
 
 .quote-author{
@@ -89,13 +90,17 @@ button:active{
 /* Loader */
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #163f3ad7; /* Blue */
+    border-top: 16px solid #163f3ad7; 
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     animation: spin 2s linear infinite;
   }
-  
+
+
+
+
+
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
